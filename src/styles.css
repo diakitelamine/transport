@@ -1,1 +1,102 @@
-/* You can add global styles to this file, and also import other style files */
+@import "../node_modules/bootstrap/dist/css/bootstrap.css";
+
+
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+  }
+  
+  .site-wrapper {
+    flex: 1;
+  }
+  
+  .navbar {
+    background-color: #ffffff; /* Couleur blanche pour la barre de navigation */
+  }
+  
+  .footer {
+    width: 100%;
+    padding: 20px 0;
+    background-color: #808080; /* Couleur grise pour le pied de page */
+    color: #ffffff;
+    position: relative;
+    z-index: 1000;
+  }
+  
+  .footer p {
+    margin-bottom: 0;
+  }
+  
+  .navbar-brand {
+    font-weight: bold;
+    margin-right: auto;
+  }
+  
+  .navbar-nav {
+    margin-left: auto;
+  }
+  
+  .navbar-nav a {
+    padding: 0.5rem 1rem;
+  }
+  
+  .custom-logo {
+    margin-right: 0 !important;
+  }
+  
+  .custom-carousel {
+    margin-left: 150px;
+    margin-right: 150px;
+  }
+  
+  .camion-image {
+    max-width: 100%;
+    max-height: 400px;
+    object-fit: cover;
+  }
+  
+  .custom-btn {
+      margin-bottom: 15px; /* Ajoutez la marge basse souhaitée */
+  }
+  
+  .icons-list {
+      margin-left: 20px; /* Ajustez la valeur selon vos préférences pour décaler les icônes vers la droite */
+    }
+  
+    /* styles.css (ou votre fichier de style) */
+  .text-blue {
+      color: #3498db; /* Couleur bleu-vert */
+      font-weight: bold; /* Texte en gras */
+  }
+  
+    
+  .partner-logo-fixed-height {
+      height: 80px; /* Ajustez la hauteur selon vos besoins */
+  }
+  
+  
+  /* Ajoutez ces styles à votre fichier de styles CSS */
+  .navbar-nav .nav-link:hover {
+      
+      color: #fff; /* Couleur du texte au survol */
+    }
+    
+    /* Styles pour le lien actif */
+    .navbar-nav .nav-item.active .nav-link {
+      
+      color: #fff; /* Couleur du texte du lien actif */
+    }
+
+    .site-wrapper {
+        display: flex;
+        flex-direction: column;
+        min-height: 100vh; /* Garantit que le site-wrapper occupe au moins 100% de la hauteur de la vue */
+      }
+      
+      .footer {
+        margin-top: auto; /* Pousse le footer vers le bas de l'espace disponible */
+      }
+      
+    
