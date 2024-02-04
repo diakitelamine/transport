@@ -52,11 +52,12 @@ body {
   }
   
   .camion-image {
-    max-width: 100%;
+    width: 100%;
+    height: auto;
     max-height: 400px;
     object-fit: cover;
-  }
-  
+}
+
   .custom-btn {
       margin-bottom: 15px; /* Ajoutez la marge basse souhaitée */
   }

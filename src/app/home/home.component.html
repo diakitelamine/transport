@@ -1,40 +1,82 @@
-<!-- home.component.html -->
-<div class="jumbotron text-center mt-5"> <!-- Ajoutez la classe mt-4 ici -->
-    <h1 class="display-4 text-blue">Bienvenue sur IKC Transport</h1>
-    <p class="lead">Connectons vos marchandises à travers l'Europe avec rapidité et fiabilité.</p>
-    <a class="btn btn-primary btn-lg" href="/presentation" role="button">Explorez notre expertise</a>
-</div>
-
-<div class="container mt-5">
-    <div class="row">
-        <div class="col-md-6 text-center">
-            <h2 class="mb-4 text-blue">À Propos de Nous</h2>
-            <p>Nous simplifions vos opérations de transport en Pologne avec un engagement envers l'efficacité et la sécurité.</p>
-        </div>
-        <div class="col-md-6 text-center">
-            <h2 class="mb-4 text-blue">Notre Vision</h2>
-            <p>Notre vision est de créer des solutions innovantes qui répondent aux besoins changeants de nos clients. Votre satisfaction est notre motivation.</p>
+    <!-- home.component.html -->
+    <div class="jumbotron text-center mt-5 position-relative" style="background-image: url('assets/camion/accueil.jpeg'); background-size: cover; background-position: center; height: 600px;">
+        <div class="container">
+            <h1 class="display-4 text-white" style="text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);">Bienvenue sur IKC Transport SP Z.O.O</h1>
+            <p class="lead text-white" style="text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);">Connectons vos marchandises à travers l'Europe avec rapidité et fiabilité.</p>
+            <a class="btn btn-primary btn-lg" href="/presentation" role="button" style="text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);">Explorez notre expertise</a>
         </div>
     </div>
 
-    <!-- Carrousel des Camions -->
+    <!-- À Propos de Nous et Notre Vision -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-6 text-center">
+                <h2 class="mb-4 text-blue">À Propos de Nous</h2>
+                <p>Nous sommes IKC Transport, une entreprise spécialisée dans la simplification et l'optimisation des opérations de transport en Pologne. Avec une solide expérience dans le secteur, nous sommes fiers de notre engagement envers l'efficacité opérationnelle et la sécurité.</p>
+                <p>Notre équipe dévouée travaille sans relâche pour garantir que vos marchandises sont traitées avec le plus grand soin et livrées de manière fiable à chaque étape du processus.</p>
+            </div>
+            <div class="col-md-6 text-center">
+                <h2 class="mb-4 text-blue">Notre Vision</h2>
+                <p>Notre vision est guidée par l'innovation et l'adaptabilité. Nous aspirons à être les leaders de l'industrie en créant des solutions logistiques novatrices qui évoluent avec les besoins changeants de nos clients. Chez IKC Transport, votre satisfaction est notre principale priorité.</p>
+                <p>Nous croyons en la construction de relations solides avec nos clients. En tant que partenaire stratégique, nous nous engageons à comprendre vos besoins spécifiques et à fournir des solutions sur mesure qui dépassent vos attentes.</p>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- home.component.html -->
+
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="mb-4 text-blue">Voyez Notre Travail en Action</h2>
+                <p class="lead">
+                    Plongez au cœur de notre activité et découvrez le monde du transport et de la logistique avec IKC Transport SP Z.O.O. Notre engagement envers l'excellence, l'efficacité et la sécurité se reflète dans chaque aspect de notre service.
+                </p>
+                <p>
+                    Que vous soyez un partenaire commercial ou un client, notre mission est de simplifier vos opérations de transport en Pologne. Nous croyons en la puissance de l'innovation et de la collaboration pour répondre aux besoins changeants de nos clients.
+                </p>
+                <p>
+                    Notre équipe dévouée travaille sans relâche pour assurer des livraisons rapides, sûres et sans tracas. Nous mettons l'accent sur la personnalisation des solutions logistiques pour répondre à vos besoins spécifiques. Chez IKC Transport, chaque kilomètre parcouru est une étape vers la construction de relations durables et de succès partagés.
+                </p>
+                <p>
+                    Explorez notre vidéo pour avoir un aperçu de notre flotte de camions et de notre engagement envers la qualité. Nous sommes fiers d'être votre partenaire logistique de confiance, prêt à relever les défis logistiques et à transformer vos opportunités en réalité.
+                </p>
+            </div>
+        </div>
+    </div>
+
+    <!-- Section de la vidéo -->
+    <div class="container mt-5">
+        <div class="row">
+            <div class="col-md-12 text-center">
+                <h2 class="mb-4 text-blue">Voyez Notre Flotte en Action</h2>
+                <video width="100%" height="auto" controls autoplay muted loop>
+                    <source src="assets/camion/camion.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </div>
+
+    <!-- 
     <div class="row mt-5">
         <div class="col-md-12 text-center">
-            <h2 class="mb-4 text-blue">Nos Camions</h2>
+            <h2 class="mb-4 text-blue">Nos camions</h2>
             <div id="carouselExampleAutoplaying" class="carousel slide custom-carousel" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="assets/camion/camion1.jpg" class="d-block w-100 camion-image" alt="Camion 1">
+                        <img src="assets/camion/camion1.jpg" class="d-block w-100 h-md-100 camion-image" alt="Camion 1">
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/camion/service3.jpg" class="d-block w-100 camion-image" alt="Camion 2">
+                        <img src="assets/camion/ia3.jpeg" class="d-block w-100 h-md-100 camion-image" alt="Camion 2">
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/camion/camion3.jpg" class="d-block w-100 camion-image" alt="Camion 3">
+                        <img src="assets/camion/ia2.jpeg" class="d-block w-100 h-md-100 camion-image" alt="Camion 3">
                     </div>
                     <div class="carousel-item">
-                        <img src="assets/camion/camion4.jpg" class="d-block w-100 camion-image" alt="Camion 4">
+                        <img src="assets/camion/ia1.jpeg" class="d-block w-100 h-md-100 camion-image" alt="Camion 4">
                     </div>
+                
                 </div>
                 <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying"
                     data-bs-slide="prev">
@@ -48,7 +90,7 @@
                 </button>
             </div>
         </div>
-    </div>
+    </div> -->
 
+    <!-- Partenaires -->
     <app-partenaire></app-partenaire>
-</div>
