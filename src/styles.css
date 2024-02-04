@@ -99,4 +99,15 @@ body {
         margin-top: auto; /* Pousse le footer vers le bas de l'espace disponible */
       }
       
-    
+    /* styles.css (ou styles.scss) */
+    .menu-item {
+      font-weight: bold; /* Exemple de style de mise en valeur */
+      color: #ff5733; /* Couleur personnalisée */
+     }
+
+     /* Ajoutez cette règle pour ajuster la taille du placeholder */
+   .form-control::placeholder {
+       font-size: 20px; /* Vous pouvez ajuster la taille selon vos besoins */
+    }
+  
+  
