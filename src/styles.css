@@ -1,4 +1,7 @@
 @import "../node_modules/bootstrap/dist/css/bootstrap.css";
+@import "../node_modules/@fortawesome/fontawesome-free/css/all.css";
+
+
 
 
 body {
@@ -117,4 +120,45 @@ body {
         color: #fff; /* ou toute autre couleur souhaitée */
       }
       
-  
+        /* Désactiver les effets de survol et définir les styles de base pour les liens du footer */
+        .footer a.nav-link,
+        .footer a.list-inline-item {
+        color: #333; /* Couleur de texte par défaut */
+        text-decoration: none; /* Pas de soulignement par défaut */
+        }
+
+        /* Styles de survol si nécessaire */
+        .footer a.nav-link:hover,
+        .footer a.list-inline-item:hover {
+        color: #007bff; /* Couleur de survol */
+        text-decoration: underline; /* Soulignement au survol si nécessaire */
+        }
+
+
+
+        /* Adresse, mail footer */
+        .col-md-6 {
+            padding: 20px; /* Ajoute une marge intérieure pour l'espace autour du contenu */
+            background-color: #f8f9fa; /* Ajoute une couleur de fond */
+          }
+          
+          address {
+            font-style: normal; /* Assurez-vous que le texte dans la balise <address> n'est pas en italique */
+          }
+          
+          /* Style pour le lien email */
+          .col-md-6 a {
+            color: #007bff; /* Couleur du lien */
+            text-decoration: none; /* Pas de soulignement par défaut */
+          }
+          
+          /* Style au survol du lien email */
+          .col-md-6 a:hover {
+            text-decoration: underline; /* Soulignement au survol */
+          }
+
+          .social-icon {
+            font-size: 2em; /* Vous pouvez ajuster la taille en fonction de vos besoins */
+          }
+          
+        
